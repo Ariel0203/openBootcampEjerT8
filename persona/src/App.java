@@ -8,7 +8,6 @@ public class App {
         System.out.println(hombre.getEdad());
         System.out.println(hombre.getNombre());
         System.out.println(hombre.getTelefono());
-
     }
 }
 
@@ -20,9 +19,11 @@ class Persona {
     public void setEdad(int edad){
         this.edad = edad;
     }
+
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
+
     public void setTelefono(int telefono){
         this.telefono = telefono;
     }
@@ -33,8 +34,9 @@ class Persona {
 
     public String getNombre(){
         return this.nombre;
-
-    }public int getTelefono(){
+    }
+    
+    public int getTelefono(){
         return this.telefono;
     }
 }
