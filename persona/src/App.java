@@ -5,9 +5,9 @@ public class App {
         persona.setNombre("Ariel");
         persona.setTelefono(1102230103);
         
-        System.out.println(persona.getEdad());
-        System.out.println(persona.getNombre());
-        System.out.println(persona.getTelefono());
+        System.out.println("Edad:" + " " + persona.getEdad());
+        System.out.println("Nombre:" + " " + persona.getNombre());
+        System.out.println("Telefono:" + " " + persona.getTelefono());
     }
 }
 
