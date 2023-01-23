@@ -1,13 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Persona hombre = new Persona();
-        hombre.setEdad(38);
-        hombre.setNombre("Ariel");
-        hombre.setTelefono(1102230103);
+        Persona persona = new Persona();
+        persona.setEdad(38);
+        persona.setNombre("Ariel");
+        persona.setTelefono(1102230103);
         
-        System.out.println(hombre.getEdad());
-        System.out.println(hombre.getNombre());
-        System.out.println(hombre.getTelefono());
+        System.out.println(persona.getEdad());
+        System.out.println(persona.getNombre());
+        System.out.println(persona.getTelefono());
     }
 }
 
